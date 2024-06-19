@@ -69,10 +69,6 @@ std::vector<uint64_t> getBucketFunctionFulcrums(int k, int fulcs, uint64_t bucke
     }
     fulcrums.push_back(bucketCount << 32U);
 
-    for (uint64_t v: fulcrums) {
-        std::cout << v << std::endl;
-    }
-
     return fulcrums;
 }
 
